@@ -1,6 +1,6 @@
 *{
     margin:0 auto;
-    /* outline:solid black 1px; */
+    outline:solid black 1px;
 }
 #container{   
     width:1600px;
@@ -427,8 +427,7 @@
     align-items: center;
     justify-content: center;
     width:1660px;
-    height:350px;
-    margin: 0;
+    height:350px;   
     padding:0;
 }
 
