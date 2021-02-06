@@ -1,0 +1,539 @@
+*{
+    margin:0 auto;
+    /* outline:solid black 1px; */
+}
+#container{   
+    width:1600px;
+}
+/* Nav div---------------------------------------------------------------------------------- */
+#nav{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width:1600px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+
+}
+#nav li{
+    list-style-type: none;
+    display: flex;
+    flex-direction:row ;
+}
+
+#leftnav{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;   
+    width: 35%;
+}
+#rightnav{
+    display: flex;
+    flex-direction:row ;
+    justify-content:space-between;
+    width: 35%;
+    background-color: transparent;
+    height:20px;
+}
+
+#rightnav li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#nav h1{
+    display: flex;
+    justify-content:center;
+    align-items:center ;
+    background-color: transparent;
+    width:10%;
+}
+
+#logo{
+    display:flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+#sear{
+    height:15px;
+    width:auto;
+}
+
+#pipe{
+    border-left: solid  gray 3px ;
+    margin-right: 40px;
+}
+
+#navimg{
+    margin-right: 20px;
+}
+
+/*  story div--------------------------------------------------------------------------------*/
+#story{
+    background-image: url("./lokaiimg/mount.png");
+    height:550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#story h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.story{
+    height:300px;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.story h1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.story button{
+    background-color: black;
+    color:white;
+    width:200px;
+    height:25px;
+}
+
+.story button:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 200px;
+    background-color: white;
+    color: black;
+}
+
+/* nkhc div---------------------------------------------------------------------------------- */
+#knhc{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width:1600px;
+    height:850px;
+}
+
+#kkhchead{
+    display: flex;
+    flex-direction:column ;
+    width:100%;
+    height:200px;
+}
+
+#bracelets{
+    display: flex;
+    justify-content:space-between ;
+    background-color: white;
+    width:1600px;
+}
+
+#ulcontain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#ulcontain a{
+    color:lightgrey;
+}
+
+.ul1 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:1520px;
+    list-style-type: none;
+    padding:0;
+}
+
+.ul1 li{
+    display: flex;
+    justify-content: space-between;
+    padding:0;
+}
+
+.ul2 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 1520px;
+    padding:0;
+}
+
+.ul2 li{
+    display: flex;
+    justify-content: space-around;
+    padding:0;
+}
+
+
+/* images-=-----=-=0=-=-=-=-=-=- */
+.bgkcol{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border: 0;
+}
+
+.b2{
+    height:300px;
+    width:auto;
+}
+
+.b21{
+    height:300px;
+    width:auto;
+}
+
+.b22{
+    height:300px;
+    width:auto;
+}
+
+.b23{
+    height:300px;
+    width:auto;
+}
+
+/* new arrivals------------------------------------------------------------------------------- */
+#newarr{
+    display: flex;
+    align-items:center;
+    background-image: url("./lokaiimg/hands.png");
+    background-position: center;
+    height:780px;
+    width:1600px;
+}
+
+.newarr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:500px;
+    height:300px;
+}
+
+#newarr button{
+    background-color: white;
+    color:black;
+    width:200px;
+    height:25px;
+}
+
+.newarr h1{
+    color:white;
+}
+
+#newarr button:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 200px;
+    background-color: black;
+    color: white;
+}
+/* classic------------------------------------------------------------------------------------- */
+
+#classic{
+    display: flex;
+    align-items: center;
+    background-image: url("./lokaiimg/bracbckg.png");
+    height:1000px;
+    width:1600px;
+    background-position: center;
+}
+
+.cl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:250px;
+    height:250px;
+}
+
+.cl a{
+    color: lightgrey;
+}
+
+.cl p{
+    font-size: 24px;
+
+}
+
+.cl2{
+    margin-top:10px;
+}
+
+
+/* shop collection----------------------------------------------------------------------------- */
+
+#ddiv{
+    display: flex;
+    flex-direction: row;
+    width:1600px;
+}
+/* leftside------------- */
+
+.left{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("./lokaiimg/whitepower.png");
+    width:48%;
+    height:300px;
+}
+
+.lefsd{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lefsd p{
+    color:white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.lefsd button{
+    background-color: white;
+    color:black;
+    width:200px;
+    height:25px;
+}
+
+.lefsd button:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 200px;
+    background-color: black;
+    color: white;
+}
+
+/* rightside ----------*/
+.right{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("./lokaiimg/whityhands.png");
+    width:48%;
+    height:300px;
+}
+
+.ritsd{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ritsd p{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.ritsd button{
+    background-color: white;
+    color:black;
+    width:200px;
+    height:25px;
+}
+
+.ritsd button:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 200px;
+    background-color: black;
+    color: white;
+}
+
+
+/* ocean---------------------------------------------------------------------------------------- */
+
+#sustain{
+    display: flex;
+    align-items: center;
+    background-image: url("./lokaiimg/ocean.png");
+    width:1600px;
+    height:780px;
+    margin-top: 40px;
+}
+
+.susd{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 450px;
+    color: white;
+}
+
+.mainp{
+    display: flex;
+    align-items:center;
+    font-size: 58px;
+    width:450px;
+}
+
+.susp{
+    display: flex;
+    align-content: center;
+    width:360px;
+    font-size: 17px;
+}
+
+.susd button{
+    background-color: white;
+    color:black;
+    width:200px;
+    height:25px;
+}
+
+.susd button:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 200px;
+    background-color: black;
+    color: white;
+}
+
+/* footer------------------------------------------------------------------------------------- */
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:1660px;
+    height:350px;
+    margin: 0;
+    padding:0;
+}
+
+/* left div------------------------------ */
+.infoli{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    padding: 0;
+    margin-left:55px;
+    margin-right: 25px;
+    color: lightslategray;
+}
+
+.l1{
+    display: flex;
+    flex-direction: column;
+    width:125px;
+    height:250px;
+}
+
+.l2{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height:250px;
+}
+
+.l3{
+    
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height:250px;
+}
+
+.l4{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height:250px;
+}
+/* mid div------------------------------- */
+
+.mid{
+    display: flex;
+    width:250px;
+    height: 100px;
+    margin:0;
+}
+
+.mmid p{
+    display: flex;
+    font-size:20px;
+    color: lightslategray;
+    font-weight: bold;
+}
+
+.cont{
+    padding:7px;
+    height:25px;
+    width:auto;
+    margin-top: 0;
+    
+}
+
+/* right div----------------------------- */
+
+.rside{
+    display: flex;
+    flex-direction: column;
+    width: 690px;
+    margin:0;
+}
+
+.rrside{
+    display: flex;
+    flex-direction: column;
+    height:175px;
+    width:690px;
+}
+
+.rrside h3{
+    color:lightslategray;
+}
+
+.rrside p{
+    height:100px;
+    font-size: 22px;
+    color: lightslategray;
+    text-align: right;
+}
+
+.butty{
+    width:690px;
+    height:100px;
+}
+
+.butty input{
+    width:450px;
+    height:40px;
+    margin-left: 75px;
+}
+
+.butty button{
+    height:45px;
+    width:80px;
+}
